@@ -1,0 +1,98 @@
+body{
+    max-width: 100%;
+    max-height: 500%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 100%;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    overflow: hidden;
+    background-color: #000000;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.search {
+    float: right;
+    background-color: #050e91;
+    padding-right: 10%;
+    margin-right:  8% ;
+    border-radius: 30%;
+}
+.titulo{
+    text-align: center;
+    margin: 15%;
+    color: white;
+    font-size: 400%;
+    text-transform:uppercase;
+    padding-bottom: 15%;
+
+}
+
+#fondo{
+    background-image:url("img/tibbers.jpg");
+    background-size: 100€;
+    padding: 23% 23% 5% 23%;
+    background-repeat: no-repeat ;
+}
+#column1{
+    text-align: center;
+    margin: 0%;
+    display: inline-flex;
+}
+#img1,#img2{
+    border: .7em solid #dcdcdc;
+    display: inline-flex;
+    margin: -5px;
+
+}
+#img-3{
+    justify-content: flex-end;
+    height: 2em;
+    width: 2em;
+    margin-top: 9em;
+    margin-left: 18em; ;
+
+    
+}
+#column2{
+    text-align: center;
+
+    margin: 0%;
+    display: inline-flex;
+    margin: 0%;
+
+}
+#img-4,#img-5{
+    border: .6em solid #dcdcdc;
+    display: inline;
+    margin: -4px;
+    margin-top: -5em   02;
+}
+#column3{
+    
+}
+#img6{
+    text-align: center;
+    margin-left: 25%;
+    border: .7em solid #dcdcdc;
+    margin-top: 0em;
+}
